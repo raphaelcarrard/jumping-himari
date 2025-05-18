@@ -17,23 +17,23 @@ public class AchievementManager : MonoBehaviour
 
     public void CheckAchievements()
     {
-        if(ScoreManager.instance.score > 100)
+        if(ScoreManager.instance.score > 5)
         {
             NGHelper.instance.unlockMedal(84544);
         }
-        if (ScoreManager.instance.score > 200)
+        if (ScoreManager.instance.score > 10)
         {
             NGHelper.instance.unlockMedal(84545);
         }
-        if (ScoreManager.instance.score > 300)
+        if (ScoreManager.instance.score > 15)
         {
             NGHelper.instance.unlockMedal(84546);
         }
-        if (ScoreManager.instance.score > 400)
+        if (ScoreManager.instance.score > 20)
         {
             NGHelper.instance.unlockMedal(84547);
         }
-        if (ScoreManager.instance.score > 500)
+        if (ScoreManager.instance.score > 25)
         {
             NGHelper.instance.unlockMedal(84548);
         }
