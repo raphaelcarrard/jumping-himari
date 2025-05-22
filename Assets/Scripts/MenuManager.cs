@@ -33,7 +33,7 @@ public class MenuManager : MonoBehaviour
             #if UNITY_EDITOR
             EditorApplication.isPlaying = false;
             #elif UNITY_WEBGL
-            Debug.Log("this game not exists in Web");
+            Debug.Log("this game not exits in Web");
             #else
             Application.Quit();
             #endif
